@@ -19,11 +19,11 @@ public:
 int main() {
     int rows, cols;
     cout<<"Enter the rows and columns: ";
-    cin >> rows >> cols;  // Input dimensions
+    cin >> rows >> cols;  
 
     vector<vector<int>> grid(rows, vector<int>(cols));
 
-    // Input grid values
+    
     cout<<"Enter the values : \n";
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
